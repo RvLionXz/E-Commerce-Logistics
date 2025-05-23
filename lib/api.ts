@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000/api"
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://47.250.187.233:4000/api"
 
 export async function fetchApi(endpoint: string, options: RequestInit = {}) {
   const url = `${API_URL}${endpoint}`
